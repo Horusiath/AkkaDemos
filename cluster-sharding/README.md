@@ -8,4 +8,4 @@ To run the example, run at least 3 nodes:
 - Demo.ClusterNode - nodes responsible for hosting persistent actors (entities) and singleton actor used to pull taxi positions. This project can be started as multiple processes: this way cluster sharding will dispatch messages to entities, even if they live on more than one node.
 - Demo.Web - ASP.NET application with actor system used to get data from the rest of the cluster and publishing it through SignalR.
 
-In order to be able to use Google Maps API, you need to specify your key in [index reference](./Demo.Web/index.html).
+In order to be able to use Google Maps API, you need to specify your key in [index reference](./Demo.Web/index.html#L33).
