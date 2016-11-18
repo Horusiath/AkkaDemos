@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Lighthouse", "Demo.Lighthouse\Demo.Lighthouse.csproj", "{FDB1AB5A-D6D5-47D6-9EF8-01DBD5E9B057}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hello-world", "hello-world", "{810EF816-5323-4D4D-A143-ACABFE5E42FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "reactive-streams", "reactive-streams", "{DA82A2E6-4881-4CC8-ABDF-82DDB65123A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cluster-sharding", "cluster-sharding", "{2E6760F0-5E9E-40A2-B44D-A70AED1285BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.HelloWorld", "hello-world\Demo.HelloWorld\Demo.HelloWorld.csproj", "{C4336264-6329-47F6-BD78-C8B943D6D6FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.HelloStreams", "reactive-streams\Demo.HelloStreams\Demo.HelloStreams.csproj", "{1CCD913C-D1F8-4822-B713-0FE5FB697502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.ClusterShared", "cluster-sharding\Demo.ClusterShared\Demo.ClusterShared.csproj", "{8D232C43-967E-4982-A153-FD1F8F112A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.ClusterNode", "cluster-sharding\Demo.ClusterNode\Demo.ClusterNode.csproj", "{ED49AA83-49C3-46BC-ACA7-BFFC7B3A217A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Web", "cluster-sharding\Demo.Web\Demo.Web.csproj", "{7BBAF7E0-D65B-4430-B106-BE9304A04DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDB1AB5A-D6D5-47D6-9EF8-01DBD5E9B057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB1AB5A-D6D5-47D6-9EF8-01DBD5E9B057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB1AB5A-D6D5-47D6-9EF8-01DBD5E9B057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB1AB5A-D6D5-47D6-9EF8-01DBD5E9B057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4336264-6329-47F6-BD78-C8B943D6D6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4336264-6329-47F6-BD78-C8B943D6D6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4336264-6329-47F6-BD78-C8B943D6D6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4336264-6329-47F6-BD78-C8B943D6D6FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCD913C-D1F8-4822-B713-0FE5FB697502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCD913C-D1F8-4822-B713-0FE5FB697502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCD913C-D1F8-4822-B713-0FE5FB697502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCD913C-D1F8-4822-B713-0FE5FB697502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D232C43-967E-4982-A153-FD1F8F112A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D232C43-967E-4982-A153-FD1F8F112A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D232C43-967E-4982-A153-FD1F8F112A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D232C43-967E-4982-A153-FD1F8F112A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED49AA83-49C3-46BC-ACA7-BFFC7B3A217A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED49AA83-49C3-46BC-ACA7-BFFC7B3A217A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED49AA83-49C3-46BC-ACA7-BFFC7B3A217A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED49AA83-49C3-46BC-ACA7-BFFC7B3A217A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBAF7E0-D65B-4430-B106-BE9304A04DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBAF7E0-D65B-4430-B106-BE9304A04DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBAF7E0-D65B-4430-B106-BE9304A04DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBAF7E0-D65B-4430-B106-BE9304A04DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4336264-6329-47F6-BD78-C8B943D6D6FD} = {810EF816-5323-4D4D-A143-ACABFE5E42FA}
+		{1CCD913C-D1F8-4822-B713-0FE5FB697502} = {DA82A2E6-4881-4CC8-ABDF-82DDB65123A2}
+		{8D232C43-967E-4982-A153-FD1F8F112A36} = {2E6760F0-5E9E-40A2-B44D-A70AED1285BC}
+		{ED49AA83-49C3-46BC-ACA7-BFFC7B3A217A} = {2E6760F0-5E9E-40A2-B44D-A70AED1285BC}
+		{7BBAF7E0-D65B-4430-B106-BE9304A04DE3} = {2E6760F0-5E9E-40A2-B44D-A70AED1285BC}
+	EndGlobalSection
+EndGlobal

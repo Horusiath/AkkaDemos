@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Realtime vehicle tracking.</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html, body, #map-canvas {
+            height: 100%;
+            margin: 0;
+            margin-right: 100px;
+            padding: 0;
+        }
+
+        #vehicles {
+            height: 100%;
+            margin-bottom: 0;
+            overflow-y: scroll;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 200px;
+        }
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.1.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/signalr/jquery.signalr-2.2.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-debug.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.js"></script>
+    <!-- SPECIFY YOUR GOOGLE MAPS API KEY BELOW -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=<GOOGLE_MAPS_API_KEY>"></script>
+    <script src="/signalr/hubs"></script>
+    <script src="/Scripts/app.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div id="map"></div>
+        </div>
+        <div class="col-md-4">
+            <div>Click on the marker to get it's history.</div>
+            <div class="well">
+                <ul class="list-group" data-bind="foreach: currentHistory">
+                    <li class="list-group-item">
+                        <h4 class="list-group-item-heading">At: <span data-bind="text: moment(when).format('h:mm:ss a')"></span></h4>
+                        <p>
+                            <small>Longitude: <span data-bind="text: position.longitude"></span></small>
+                            <small>Latitude: <span data-bind="text: position.latitude"></span></small>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
