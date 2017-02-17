@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.ClusterNode", "cluster
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Web", "cluster-sharding\Demo.Web\Demo.Web.csproj", "{7BBAF7E0-D65B-4430-B106-BE9304A04DE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.SqlReader", "reactive-streams\Demo.SqlReader\Demo.SqlReader.csproj", "{C5E168E1-4E6F-4F67-A86A-D0560F8A2979}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7BBAF7E0-D65B-4430-B106-BE9304A04DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BBAF7E0-D65B-4430-B106-BE9304A04DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BBAF7E0-D65B-4430-B106-BE9304A04DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E168E1-4E6F-4F67-A86A-D0560F8A2979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E168E1-4E6F-4F67-A86A-D0560F8A2979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E168E1-4E6F-4F67-A86A-D0560F8A2979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E168E1-4E6F-4F67-A86A-D0560F8A2979}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,5 +67,6 @@ Global
 		{8D232C43-967E-4982-A153-FD1F8F112A36} = {2E6760F0-5E9E-40A2-B44D-A70AED1285BC}
 		{ED49AA83-49C3-46BC-ACA7-BFFC7B3A217A} = {2E6760F0-5E9E-40A2-B44D-A70AED1285BC}
 		{7BBAF7E0-D65B-4430-B106-BE9304A04DE3} = {2E6760F0-5E9E-40A2-B44D-A70AED1285BC}
+		{C5E168E1-4E6F-4F67-A86A-D0560F8A2979} = {DA82A2E6-4881-4CC8-ABDF-82DDB65123A2}
 	EndGlobalSection
 EndGlobal
